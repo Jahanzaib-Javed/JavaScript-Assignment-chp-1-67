@@ -1276,3 +1276,57 @@
 // calcCircum(radius)
 // calcArea(radius)
 
+//Chapter 38 - 42
+
+//1
+
+// function power(a,b){
+//     var res=1;
+//     for(var i=1;i<=b;i++)
+//     {
+//         res = res*a;
+//     }
+//     return res;
+// }
+// var num=+prompt("Enter a number: ")
+// var p=+prompt("Enter its power: ")
+// var result = power(num,p)
+// alert(num + " raised to power "+p+" is: "+result)
+
+//2
+
+//3
+
+// function areaTriangle(a,b,c){
+//     function S(){
+//         return ((a+b+c)/2)
+//     }
+//     var area = S()*(S()-a)*(S()-b)*(S()-c);
+//     return area
+// }
+// var side1 = +prompt("Enter side a of triangle: ")
+// var side2 = +prompt("Enter side b of triangle: ")
+// var side3 = +prompt("Enter side c of triangle: ")
+// var area = areaTriangle(side1,side2,side3)
+// alert("Area of this triangle is : "+area)
+
+//4
+
+// function average(sub1,sub2,sub3){
+//     return (sub1+sub2+sub3)/3
+// }
+// function percentage(sub1,sub2,sub3){
+//     return (((sub1+sub2+sub3)/300)*100)
+// }
+// function main(){
+//     var sub1 = +prompt("Enter marks for subject 1: ")
+//     var sub2 = +prompt("Enter marks for subject 2: ")
+//     var sub3 = +prompt("Enter marks for subject 3: ")
+//     var avg = average(sub1,sub2,sub3)
+//     var Percentage = percentage(sub1,sub2,sub3)
+//     alert("Average of these marks are: "+avg+"\nPercentage is : "+Percentage+"%")
+// }
+// main()
+
+//5
+
