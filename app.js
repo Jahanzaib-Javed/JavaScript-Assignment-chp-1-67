@@ -1330,3 +1330,40 @@
 
 //5
 
+//Chapter 43 - 48
+
+//1
+//Done on index.html with number 1-C-43-48
+//2
+//Done on index.html with number 2-C-43-48
+//3
+//Done on index.html with number 3-C-43-48
+
+// function del(j){
+//     var id = document.getElementById(j)
+//     id.innerHTML= " "
+// }
+
+//4
+//Done on index.html with number 4-C-43-48
+//5
+//Done on index.html with number 5-C-43-48
+
+// var c=0;
+// var count = document.getElementById("count");
+// function inc(){
+//     c++;
+//     count.innerHTML = c;
+// }
+
+// function dec(){
+//     c--;
+//     count.innerHTML = c;
+// }
+// function reset(){
+//     c=0;
+//     count.innerHTML = c;
+// }
+
+// Chapter 49 - 52
+
