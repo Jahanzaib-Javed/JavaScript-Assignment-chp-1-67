@@ -1400,6 +1400,20 @@
 
 //10
 
+// function palindrome(str1){
+//     var str =""
+//     for(var i=(str1.length-1);i>=0;i--){
+//         str += str1[i]
+//     }
+//     if(str === str1){
+//         document.write(str1 + " is palindrome.")
+//     }
+//     else{
+//         document.write(str1 + " is not palindrome.")
+//     }
+// }
+// var input = prompt("Enter a word to check: ")
+// palindrome(input)
 
 //11
 
@@ -1417,6 +1431,21 @@
 
 //12
 
+// function findLongestWord(str) {
+//     var longestWord = 0;
+//     var index;
+//     for(var i = 0; i < str.length; i++){
+//       if(str[i].length > longestWord){
+//       longestWord = str[i].length;
+//       index = i;
+//        }
+//     }
+//     return index;
+// }
+// var str=prompt("Enter a phrase to check: ")
+// var strSplit = str.split(' ');
+// var indx=findLongestWord(strSplit)
+// document.write("Your phrase is: "+str+"<br>The longest word is: "+strSplit[indx])
 
 //13
 
@@ -1432,7 +1461,6 @@
 //     }
 //     return occur
 // }
-
 // var input = prompt("Enter a text: ")
 // var ch = prompt("Enter the character to search: ")
 // var o = occurrence(input,ch)
@@ -1472,6 +1500,17 @@
 
 //2
 
+// function leap(y){
+//     if(y%4 == 0){
+//         document.write(y+" is a leap year")
+//     }
+//     else{
+//         document.write(y+" is not a leap year")
+//     }
+// }
+// var year = +prompt("Enter the year to check: ")
+// leap(year)
+
 //3
 
 // function areaTriangle(a,b,c){
@@ -1506,6 +1545,8 @@
 // main()
 
 //5
+
+
 
 //Chapter 43 - 48
 
