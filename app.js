@@ -570,16 +570,22 @@
 // }
 
 // Chapter 14-16
+
 //1 
 // var array=[];
+
 //3
 // var arr1=["khi","lhr","isb"];
+
 //4
 // var arr2=[87,45,43];
+
 //5
 // var arr3=[true,false,false];
+
 //6
 // var arr4=["khi",45,true];
+
 //7
 // var edu=["SSC","HSC","BCS","BS","BCOM","MS","M.Phil.","PhD"];
 // document.write("1) "+edu[0]+ "<br>");
@@ -590,6 +596,7 @@
 // document.write("6) "+edu[5]+ "<br>");
 // document.write("7) "+edu[6]+ "<br>");
 // document.write("8) "+edu[7]+ "<br>");
+
 //8
 // var names=[];
 // var marks=[];
@@ -603,51 +610,63 @@
 // document.write("Score of "+names[0]+" is "+marks[0] +". Percentage: "+ ((marks[0]/tm)*100)+"%<br>");
 // document.write("Score of "+names[1]+" is "+marks[1] +". Percentage: "+ ((marks[1]/tm)*100)+"%<br>");
 // document.write("Score of "+names[2]+" is "+marks[2] +". Percentage: "+ ((marks[2]/tm)*100)+"%<br>");
+
 //9
 // var color=["red","blue","black","white"];
+
 //a
 // var uc=prompt("What color do you want to add in the start of array : "+color);
 // color.unshift(uc);
 // document.write(color);
+
 //b
 // var uc=prompt("What color do you want to add at the end of array : "+color);
 // color.push(uc);
 // document.write(color);
+
 //c
 // color.push("voilet","grey");
 // document.write(color);
+
 //d
 // color.shift();
 // document.write(color);
+
 //e
 // color.pop();
 // document.write(color);
+
 //f
 // var pos=prompt("At which point you want to add color in array : "+color);
 // var name=prompt("Which Color you want to add?");
 // color.splice(pos,0,name);
 // document.write(color);
+
 //g
 // var pos=prompt("At which index you want to delete color in array : "+color);
 // var name=prompt("How many colors you want to delete: ");
 // document.write(color + "||| after deletion <br>");
 // color.splice(pos,name);
 // document.write(color);
+
 //10
 // var score=[320,230,480,120];
 // document.write("Scores of Students : "+score);
 // document.write("<br>Ordered Score of Students : "+score.sort());
+
 //11
 // var cities=["Karachi","Lahore","Islamabad","Quetta","Peshawar"];
 // document.write("Cities list : <br>"+cities);
 // var selectedCities=[];
 // selectedCities=cities.slice(2,4);
 // document.write("<br><br> Selected cities list: <br>"+selectedCities);
+
 //12
 // var arr = ["This","is","my","cat"];
 // var str=arr.join(" ");
 // document.write("Array:<br>"+arr);
 // document.write("<br><br>String:<br>"+str);
+
 //15
 // var array=["Apple","Samsung","Motorola","Nokia","Sony","Haier"];
 // document.write("<select>");
@@ -661,13 +680,16 @@
 
 //1
 // var arr=[];
+
 //2
 // var arr=[[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+
 //3
 // for(var i=1;i<11;i++)
 // {
 //     document.write(i + "<br>");
 // }
+
 //4
 // var table,length;
 // table=prompt("Enter a number to show its multiplication table");
@@ -677,6 +699,7 @@
 // {
 //     document.write(table +" x "+i+" = "+ table*i + "<br>");
 // }
+
 //5
 // var fruit=["apple", "banana", "mango", "orange","strawberry"];
 // for (var i=0;i<5;i++)
@@ -687,6 +710,7 @@
 // {
 //     document.write("<h1> Element at index "+i+" is "+fruit[i] + "<br><h1>");
 // }
+
 //6
 // document.write("<h1>Counting: <br></h1>");
 // for(var i=1;i<=15;i++)
@@ -713,6 +737,7 @@
 // {
 //     document.write(i+"k, ");
 // }
+
 //7
 // var a=["cake","apple pie","cookie","chips","patties"];
 // var b=prompt("Welcom to ABC Bakery. WHat do you want to order sir/ma'am?","write in small letters");
@@ -737,6 +762,7 @@
 // {
 //     document.write("<h3>"+b+" is <b>available</b> at index "+check+" in our bakery</h3>");
 // }
+
 //8
 // var a=[24,53,78,91,12];
 // var t=0;
@@ -750,6 +776,7 @@
 // document.write("Array items: "+a + "<br>");
 // document.write("The largest number is "+t);
 //9
+
 // var a=[24,53,78,91,12];
 // var t=1000;
 // for(var i=0;i<5;i++)
@@ -761,13 +788,14 @@
 // }
 // document.write("Array items: "+a + "<br>");
 // document.write("The smallest number is "+t);
+
 //10
 // for(var i=5;i<=100;i=i+5)
 // {
 //     document.write(i+", ");
 // }
 
-//chapter 20 - 25
+//chapter 21 - 25
 
 //1
 // var firstname=prompt("Enter your first name:");
@@ -802,18 +830,21 @@
 // alert("Welcome "+fullname);
 
 //7
-// var text = "Hyderabad";
-// var city="";
+// var text = "Hyderabad"
+// var city=""
 // for (var i = 0; i < text.length; i++) 
 // {
-//     if (text.slice(i, i + 4) === "Hyder") 
+//     if (text.slice(i, i + 5) === "Hyder") 
 //     {
-//          city= text.slice(0, i) + "Islam" + text.slice(i + 4);
+//          city= text.slice(0, i) + "Islam" + text.slice(i + 5)
 //     }
 // }
-// document.write(city);
+// document.write(city)
 
 //8
+// var message = "Ali and Sami are best friends. They play cricket and football together."
+// var res = message.replace(/and/g, "&");
+// document.write(res)
 
 //9
 
@@ -831,11 +862,105 @@
 
 //11
 
+// var input = prompt("Enter something: ")
+// var first = input.slice(0,1)
+// var rest = input.slice(1)
+// var upper = first.toUpperCase()
+// var title = upper + rest
+// document.write(title)
+
+//12
+
+// var num = 35.56
+// var str = num.toString()
+// var display = str.replace(".","")
+// document.write(display)
+
+//13
+
+// var userName = prompt("Enter a user name: ")
+// for(var i=0;i<userName.length;i++)
+// {
+//     if(userName[i] === "@" || userName[i] === "," ||userName[i] === "." ||userName[i] === "!" ){
+//         alert("Enter a valid username")
+//         userName = prompt("Enter a user name other than special characters: ")
+//     }
+// }
+
+//14
+
+// var a = ["cake", "apple pie", "cookie", "chips", "patties"]
+// var ip = prompt("Enter the item you want to search: ")
+// var item = ip.toLowerCase()
+// var availability = false
+// var index = 0;
+// for(var i=0;i<a.length;i++)
+// {
+//     if(a[i] === item){
+//         availability = true
+//         index=i
+//         break
+//     }
+// }
+// if(availability == true){
+//     alert(item+" is available at index "+index+" in our bakery.")
+// }
+// else if(availability == false){
+//     alert("We are sorry. "+item+" is not available in our bakery.")
+// }
+
+//15
+
+// var pass = prompt("Enter your Password: ")
+// var i=0
+// var numCheck = 0;
+// if(pass.length<6){
+//     alert("Password must be atleast 6 characters long")
+//     pass = prompt("Please enter a valid Password: \na. It should contain alphabets and numbers\n b. It should not start with a number\n c. It must at least 6 characters long")
+// }
+// var firstDigit = pass.charCodeAt(0)
+// if(firstDigit >=48 && firstDigit <= 57){
+//     alert("Password can not begin with a number")
+//     pass = prompt("Please enter a valid Password: \na. It should contain alphabets and numbers\n b. It should not start with a number\n c. It must at least 6 characters long")
+// }
+// for (var i=0;i<pass.length;i++){
+//     var charCode = pass.charCodeAt(i)
+//     if( charCode >=48 && charCode <= 57){
+//         numCheck++;
+//     }
+// }
+// if(numCheck == 0){
+//     alert("Password contains both alphabets and numbers")
+//     pass = prompt("Please enter a valid Password: \na. It should contain alphabets and numbers\n b. It should not start with a number\n c. It must at least 6 characters long")
+// }
+// document.write(pass)
+
+//16
+
+// var uni = "University of Karachi";
+// var a = uni.split("")
+// for(var i=0;i<a.length;i++){
+//     document.write(a[i]+"<br>")
+// }
+
 //17
 
 // var n=prompt("Enter a word:","  ");
 // document.write("User input: "+ n +"<br>");
 // document.write("Last character of input: "+ n.charAt(n.length-1)+"<br>");
+
+//18
+
+// var text = "The quick brown fox jumps over the lazy dog"
+// var occur = 0;
+// for (var i = 0; i < text.length; i++) 
+// {
+//     if (text.slice(i, i + 3) === "The" || text.slice(i, i + 3) === "the") 
+//     {
+//          occur++
+//     }
+// }
+// document.write("Text: "+text+"<br> There are "+occur+" occurrence(s) of word 'the'")
 
 //Chapter 26-30
 
@@ -882,7 +1007,9 @@
 
 //7
 
-
+// var weight = prompt("Enter your weight")
+// var parsed = parseInt(weight)
+// document.write("The weight of the user is "+parsed+" kilograms")
 
 //8
 
@@ -1064,11 +1191,28 @@
 //11
 
 // var currentDate= new Date();
-
+// var hour = currentDate.getHours()
+// var h = hour-1 
+// document.write("Current Date: "+currentDate+"<br>")
+// var newDate = new Date(currentDate.setHours(h))
+// document.write("1 hour ago: "+newDate)
 
 //12
 
+// var currentDate= new Date();
+// var year = currentDate.getFullYear()
+// var y = year-100 
+// document.write("Current Date: "+currentDate+"<br>")
+// var newDate = new Date(currentDate.setFullYear(y))
+// document.write("100 years back: "+newDate)
+
 //13
+
+// var age = prompt("Enter your age: ")
+// var date = new Date()
+// var currentYear = date.getFullYear()
+// var birthYear = currentYear - age
+// document.write("Your age : "+age+"<br>Your birth year : "+birthYear)
 
 //14
 
@@ -1256,11 +1400,44 @@
 
 //10
 
+
 //11
+
+// function Title(input){
+//     var first = input.slice(0,1)
+//     var rest = input.slice(1)
+//     var upper = first.toUpperCase()
+//     var title = upper + rest
+//     return title
+//     }
+
+// var str = prompt("Enter something: ")
+// var strTitle = Title(str)
+// document.write(strTitle)
 
 //12
 
+
 //13
+
+// function occurrence(text,char){
+//     var arr = text.split("")
+//     var occur = 0;
+//     for (var i = 0; i < arr.length; i++) 
+//     {
+//         if (arr[i] === char) 
+//         {
+//              occur++
+//         }
+//     }
+//     return occur
+// }
+
+// var input = prompt("Enter a text: ")
+// var ch = prompt("Enter the character to search: ")
+// var o = occurrence(input,ch)
+// document.write("Text: "+input+"<br> There are "+o+" occurrence(s) of character "+ch)
+
 
 //14
 
@@ -1367,3 +1544,162 @@
 
 // Chapter 49 - 52
 
+//1
+
+// function show(){
+// var name = document.getElementById("name")
+// var email = document.getElementById("email")
+// var pswd = document.getElementById("pass")
+// document.write("Full Name: "+name.value + "<br>Email: "+email.value+"<br>Password: "+pswd.value)
+// }
+
+//2
+
+// function showmore() {
+//     var extraText = "Slow lorises are a group of several species of trepsirrhine primates which make up the genus Nycticebus. They have a round head, narrow snout, large eyes, and a variety of distinctive coloration patterns that are species-dependent. The hands and feet of slow lorises have several adaptations that give them a pincer-like grip and enable them to grasp branches for long periods of time. Slow lorises have a toxic bite, a rare trait among mammals.";
+//     var para = document.getElementById("para")
+//     para.innerHTML = extraText;
+// }
+
+//3
+
+// var tab = document.getElementById("tab")
+
+// function add() {
+//     var rollNo = document.getElementById("roll")
+//     var name = document.getElementById("name")
+//     var classes = document.getElementById("class")
+
+//     var tr = document.createElement("tr")
+//     var td1 = document.createElement("td")
+//     var rollText = document.createTextNode(rollNo.value)
+//     td1.appendChild(rollText)
+//     tr.appendChild(td1)
+    
+//     var td2 = document.createElement("td")
+//     var nameText = document.createTextNode(name.value)
+//     td2.appendChild(nameText)
+//     tr.appendChild(td2)
+    
+//     var td3 = document.createElement("td")
+//     var classText = document.createTextNode(classes.value)
+//     td3.appendChild(classText)
+//     tr.appendChild(td3)
+    
+//     var td4 = document.createElement("td")
+//     var delBtn = document.createElement("button")
+//     var delText = document.createTextNode("Delete")
+//     delBtn.appendChild(delText)
+//     delBtn.setAttribute("onclick","delItem(this)")
+//     td4.appendChild(delBtn)
+//     tr.appendChild(td4)
+        
+//     tab.appendChild(tr)
+
+//     rollNo.value = ""
+//     name.value = ""
+//     classes.value = ""
+// }
+
+// function delItem(del){
+//     del.parentNode.parentNode.remove()
+// }
+
+// Chapter 53 - 58
+
+//1
+
+// var modalImage = document.getElementById("modal-img")
+// var mod = document.getElementById("modal")
+// function modalFunc(img){
+//     mod.setAttribute("class","modal-open")
+//     mod.classList.remove("modal-close")
+//     mod.style.display="block"
+//     var image = document.getElementById(img)
+//     var imageSrc = image.src
+//     modalImage.src=imageSrc
+// }
+// function onClosedImagModal(){
+//     mod.setAttribute("class","modal-close")
+//     mod.classList.remove("model-open")
+//     setTimeout(()=>{ modal.style.display = "none"; }, 550)
+// }
+
+//2
+
+// var para = document.getElementById("para")
+// var font = "20px"
+// para.style.fontSize=font
+// function zoomIn(){
+//     para.style.fontSize = "30px"
+// }
+
+// function zoomOut(){
+//     para.style.fontSize = "20px"
+// }
+
+// Chapter 59 - 67
+
+//1
+
+//i
+// var main = document.getElementById("main-content")
+
+//ii
+// console.log(main.childNodes[0])
+// console.log(main.childNodes[1])
+// console.log(main.childNodes[2])
+// console.log(main.childNodes[3])
+// console.log(main.childNodes[4])
+
+//iii
+// var render = document.getElementsByClassName("render")
+// for(var i = 0; i<render.length;i++)
+// {
+//     document.write("<br> Data of Class "+(+i+1)+" tag: <br>"+render[i].innerHTML)
+// }
+
+//iv
+// var firstName = document.getElementById("first-name")
+// firstName.value = "Jahanzaib"
+
+//v
+// var lastName = document.getElementById("last-name")
+// lastName.value = "Javed"
+// var email = document.getElementById("email")
+// email.value = "jahanzaibjaveed6@gmail.com"
+
+//2
+
+//i
+// var formContent = document.getElementById("form-content")
+// console.log(formContent.nodeType)
+
+//ii
+// var lastName = document.getElementById("last-name")
+// console.log(lastName.nodeType)
+// console.log(lastName.childNodes)
+
+//iii
+// lastName.value = "Javed"
+
+//iv
+// var main = document.getElementById("main-content")
+// console.log("First Child")
+// console.log(main.firstChild)
+// console.log("Last Child")
+// console.log(main.lastChild)
+
+//v
+// var lastName = document.getElementById("last-name")
+// console.log("Previous Sibling")
+// console.log(lastName.previousSibling)
+// console.log("Next Sibling")
+// console.log(lastName.nextSibling)
+
+//vi
+// var email = document.getElementById("email")
+// console.log("Parent Node")
+// console.log(email.parentNode)
+// console.log("Node Type")
+// console.log(email.nodeType)
